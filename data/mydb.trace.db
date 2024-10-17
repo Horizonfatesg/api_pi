@@ -1,0 +1,24 @@
+2024-09-04 08:42:10.767028-03:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FUNCIONARIO" not found (this database is empty); SQL statement:
+select f1_0.id,f1_0.cargo,f1_0.cpf,f1_0.data_admissao,f1_0.email,f1_0.habilidades,f1_0.nome,f1_0.telefone from funcionario f1_0 [42104-224]
+2024-09-04 08:42:10.773051-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.cpf,c1_0.data_cadastro,c1_0.email,c1_0.nome,c1_0.telefone from cliente c1_0 [42104-224]
+2024-09-04 08:42:10.772043-03:00 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.cpf,c1_0.data_cadastro,c1_0.email,c1_0.nome,c1_0.telefone from cliente c1_0 [42104-224]
+2024-09-04 08:42:10.767028-03:00 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SERVICO" not found (this database is empty); SQL statement:
+select s1_0.tipo_servico,count(s1_0.id) from servico s1_0 group by s1_0.tipo_servico [42104-224]
+2024-09-04 08:42:10.767028-03:00 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SERVICO" not found (this database is empty); SQL statement:
+select count(s1_0.id) from servico s1_0 [42104-224]
+2024-09-04 08:42:14.996730-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.cpf,c1_0.data_cadastro,c1_0.email,c1_0.nome,c1_0.telefone from cliente c1_0 [42104-224]
+2024-09-04 08:42:17.399453-03:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SERVICO" not found (this database is empty); SQL statement:
+select s1_0.tipo_servico,count(s1_0.id) from servico s1_0 group by s1_0.tipo_servico [42104-224]
+2024-09-04 08:42:25.424104-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select c1_0.id from cliente c1_0 where c1_0.cpf=? fetch first ? rows only [42104-224]
